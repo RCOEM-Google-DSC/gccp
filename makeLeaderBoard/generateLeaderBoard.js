@@ -17,27 +17,24 @@ const init = () => {
     // sample data
     /**
      {
-        firstName: 'Madhav',
-        lastName: 'Jha',
-        name: 'Madhav Jha',
-        profileID: 'jhamadhav28',
-        profileLink: 'https://www.codechef.com/users/jhamadhav28/',
-        questions: { EMAILREM: true, BUDGET_: true, count: 2 }
-    }
+            "name": "Krishna Mundada",
+            "profile": "https://www.cloudskillsboost.google/public_profiles/be882abb-abec-4cbe-b686-72bc3575cac7",
+            "count": 0
+        }
      */
 
     leaderBoard.sort((a, b) => {
-        if (a["questions"]["count"] == b["questions"]["count"]) {
+        if (a["count"] == b["count"]) {
             return ((a["name"] < b["name"]) ? -1 : 1)
         }
 
-        return ((a["questions"]["count"] > b["questions"]["count"]) ? -1 : 1)
+        return ((a["count"] > b["count"]) ? -1 : 1)
     })
 
     let leaderBoardData = "const leaderBoardData = ["
     for (let i = 0; i < leaderBoard.length; i++) {
         leaderBoardData += JSON.stringify(leaderBoard[i]);
-        leaderBoardData += ","
+        leaderBoardData += ",\n"
     }
     leaderBoardData += "]"
     leaderBoardData += `\nconst updateTime =  "${participants["time"]}"`

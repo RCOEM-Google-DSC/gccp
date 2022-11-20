@@ -10,7 +10,7 @@ const addToLeaderBoard = (i, obj) => {
             <td class="cell">
                 ${obj.name.toLowerCase()}
             </td>
-            <th class="cell robo">${obj["questions"]["count"]}</th>
+            <th class="cell robo">${obj["count"]}</th>
     </tr>
         `
     board.innerHTML += newRow

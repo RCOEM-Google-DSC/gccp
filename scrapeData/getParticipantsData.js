@@ -1,6 +1,5 @@
 const scrapper = require("./scrapper.js")
 const dbFunc = require("./../dbFunc.js")
-const { qsList } = require("./qsListData")
 const dbFileLoc = "db.json"
 
 const delay = (time) => {
@@ -24,59 +23,44 @@ const getCurrentTime = () => {
     return strDateTime
 }
 
-const swap = (a, b) => {
-    let temp = a;
-    a = b;
-    b = temp
-}
-
 const init = async () => {
     /**
      * 1. get profile links
-     * 2. check if Questions are done or not
-     * 3. Update participants file with number of Questions done data
+     * 2. check labs done
+     * 3. Update participants file with number of labs done data
      */
     console.log("\n=========================");
-    console.log("---Fetching CodeChef Data---");
+    console.log("---Fetching profile Data---");
     console.log("=========================\n");
 
     let participants = JSON.parse(dbFunc.read("participants.json"))
     // dummy data to test
     let profile = [{
-        "firstName": "Madhav",
-        "lastName": "Jha",
-        "name": "Madhav Jha",
-        "profileID": "jhamadhav28",
-        "profileLink": "https://www.codechef.com/users/jhamadhav28/"
+        "name": "Krishna Mundada",
+        "profile": "https://www.cloudskillsboost.google/public_profiles/3e884237-adca-403f-a0b8-2ac9918dcc9a"
     }]
     // gets replace by real data from file so keep comment below line while testing 
-    profile = participants["profiles"]
+    profile = participants["profiles"]['data']
 
     for (let i = 0; i < profile.length; i++) {
 
         await delay(200)
         console.log(`Fetching Person ${i + 1}: ${profile[i]["name"]}`)
 
-        let qsData = await scrapper.getQsData(profile[i]["profileID"])
+        let qsData = await scrapper.getBadgeData(profile[i]["profile"])
 
-        profile[i]["questions"] = {}
-        let count = 0
-        for (let j = 0; j < qsList.length; ++j) {
+        let ls = qsData.filter(elem => {
+            elem = elem.split(" ")
+            let yr = elem[elem.length - 2]
+            let num = Number(yr)
+            return (num >= 2022)
+        })
+        // console.log(ls);
 
-            let flag = qsData.indexOf(qsList[j])
-            flag = (flag == -1) ? false : true;
-
-            if (flag) {
-                count++
-            }
-
-            profile[i]["questions"][qsList[j]] = flag
-
-        }
-        profile[i]["questions"]["count"] = count
+        profile[i]["count"] = ls.length
     }
 
-    // console.log(profile);
+    console.log(profile);
     console.log("\nUpdating db.json\n");
     let db = {
         "participants": profile,

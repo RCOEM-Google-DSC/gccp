@@ -6,24 +6,23 @@ const makeRequest = async (url) => {
     return res.text()
 }
 
-const getQsData = async (ID) => {
+const getBadgeData = async (profileUrl) => {
 
-    profileUrl = `https://www.codechef.com/users/${ID}`
 
     let htmlData = await makeRequest(profileUrl)
     htmlData = parser.parse(htmlData)
 
     // console.log(htmlData);
 
-    let aTags = htmlData.querySelectorAll("a")
-    if (!aTags) {
-        console.log("No A tags found\n");
-        return false
+    let data = htmlData.querySelectorAll(".profile-badge")
+    if (!data) {
+        console.log("No data found\n");
+        return []
     }
     let res = []
-    for (let i = 0; i < aTags.length; ++i) {
-        res.push(aTags[i].innerText)
-        // console.log(aTags[i].innerText);
+    for (let i = 0; i < data.length; ++i) {
+        res.push(data[i].innerText.trim())
+        // console.log(data[i].innerText);
     }
 
     console.log("Data scrapped\n");
@@ -31,4 +30,4 @@ const getQsData = async (ID) => {
 }
 
 
-module.exports = { getQsData }
+module.exports = { getBadgeData }

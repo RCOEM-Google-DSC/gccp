@@ -1,4 +1,5 @@
 node_modules
 
+*.xlsx
 rawParticipantsData.json
 db.json
