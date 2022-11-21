@@ -1,12 +1,12 @@
-# #30DayGoogleCloud
+# Google Cloud Career Practitioner Program
 
 <p align="center">
         <a href="https://events.withgoogle.com/30daysofgooglecloud/#content" target="_blank"><img src="https://user-images.githubusercontent.com/37475140/135711341-d3327a78-968e-4a52-916e-a2a9bed85b10.png" alt="banner"></a>
 </p>
 
-## what is #30DayGoogleCloud ?
+## what is Google Cloud Career Practitioner Program ?
 
-30 Days of Google Cloud program will provide you an opportunity to kickstart your career in cloud and get hands-on practice on Google Cloud - the tool that powers apps like Google Search, Gmail and YouTube.
+Google Cloud Career Practitioner Program will provide you an opportunity to kickstart your career in cloud and get hands-on practice on Google Cloud - the tool that powers apps like Google Search, Gmail and YouTube.
 
 ## How can this project help you ?
 
@@ -104,10 +104,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Setup node 12
+      - name: Setup node 18
         uses: actions/setup-node@v2
         with:
-          node-version: 12.x
+          node-version: 18.x
       - run: |
           npm install
           npm run 3.GetData
@@ -124,52 +124,6 @@ jobs:
 This will update the leaderBoard automatically 4 times a day.
 
 🥳🎊 **Our leaderBoard is ready!!** 🎊🥳
-
-## Progress report mail
-
-Hurray! we have are LeaderBoard up and running, but how about we send all the participants a progress report mail, something tailored for each of them with how they are progressing in this 30Day program.
-
-### Step 1: 
-
-To do so, in the folder `./progressMailReport/cred.js`, in `cred.js`add emails and password.
-
-### Step 2: 
-
-Since we will be sending mails using `Nodemailer` that will use your email add the following
-```js
-const cred = [
-
-    {
-        "user": "your email",
-        "pass": "password"
-    },
-    {
-        "user": "another email",
-        "pass": "password"
-    }
-
-]
-module.exports = cred
-```
-You can add as many emails as to want, to lower the burden of sending mails as `gmail` has a limit of `100` mails per/day.
-
-### Step 3: 
-Now all that is left is to send mails, run:
-```npm
-npm run sendMailReport
-```
-
-🎉We can now send report mails!!
-
-> This has to be run **manually** since we can't have participants data in public repo.
-
-## Sample progress report mail
-
-<p align="center"><img src="./demo/mailSample.gif" alt="mailDemo"></p>
-
-## Bugs
-
-If you are experiencing any bugs, don’t forget to open a [new issue](https://github.com/jhamadhav/30DayGoogleCloud/issues/new).
 
 ## Liked it?
 
