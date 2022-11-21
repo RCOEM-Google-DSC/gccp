@@ -1,4 +1,4 @@
-const leaderBoardData = [{"name":"Krishna Mundada","profile":"https://www.cloudskillsboost.google/public_profiles/3e884237-adca-403f-a0b8-2ac9918dcc9a","count":5},
+const leaderBoardData = [{"name":"Krishna Mundada","profile":"https://www.cloudskillsboost.google/public_profiles/3e884237-adca-403f-a0b8-2ac9918dcc9a","count":7},
 {"name":"Harsha Hargunani","profile":"https://www.cloudskillsboost.google/public_profiles/ce2cbecb-f8a6-47bf-a2c2-70797a59eead","count":1},
 {"name":"Maitri Markandeywar","profile":"https://www.cloudskillsboost.google/public_profiles/b1884f43-0948-46b0-bab1-81f065da612b","count":1},
 {"name":"AJINKYA MOHITKAR","profile":"https://www.cloudskillsboost.google/public_profiles/d98ada2b-f4bd-4750-9368-6d07d332045d","count":0},
@@ -97,4 +97,4 @@ const leaderBoardData = [{"name":"Krishna Mundada","profile":"https://www.clouds
 {"name":"Yudhan Thakur","profile":"https://www.cloudskillsboost.google/public_profiles/9b14c7b7-1e3a-4c18-ab04-8f4558c5cebf","count":0},
 {"name":"vedant walchale","profile":"https://www.cloudskillsboost.google/public_profiles/26983e46-2c8e-45b6-91d2-026b82ea3cc3","count":0},
 ]
-const updateTime =  "21-11-2022 14:55 PM"
+const updateTime =  "21-11-2022 16:27 PM"
