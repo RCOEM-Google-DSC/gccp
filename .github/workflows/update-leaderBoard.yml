@@ -2,7 +2,7 @@ name: Update leaderBoard data
 on:
   schedule:
     # Runs every four hour
-#     - cron: '0 */4 * * *'
+    - cron: '0 */4 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -15,10 +15,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Setup node 12
+      - name: Setup node 18
         uses: actions/setup-node@v2
         with:
-          node-version: 12.x
+          node-version: 18.x
       - run: |
           npm install
           npm run 2.GetData
