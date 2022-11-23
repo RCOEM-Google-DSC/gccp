@@ -1,7 +1,7 @@
 # Google Cloud Career Practitioner Program
 
 <p align="center">
-        <a href="https://events.withgoogle.com/30daysofgooglecloud/#content" target="_blank"><img src="https://user-images.githubusercontent.com/37475140/135711341-d3327a78-968e-4a52-916e-a2a9bed85b10.png" alt="banner"></a>
+        <a href="https://events.withgoogle.com/30daysofgooglecloud/#content" target="_blank"><img src="./leaderBoardSite/media/banner.jpg" alt="banner"></a>
 </p>
 
 ## what is Google Cloud Career Practitioner Program ?
