@@ -3,8 +3,10 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Harsha Hargunani","profile":"https://www.cloudskillsboost.google/public_profiles/ce2cbecb-f8a6-47bf-a2c2-70797a59eead","count":3},
 {"name":"Ayush Piyush Chile","profile":"https://www.cloudskillsboost.google/public_profiles/f19321bf-fa07-43bd-a940-eca62b22a67d","count":1},
 {"name":"Maitri Markandeywar","profile":"https://www.cloudskillsboost.google/public_profiles/b1884f43-0948-46b0-bab1-81f065da612b","count":1},
+{"name":"Poorvi Asatkar","profile":"https://www.cloudskillsboost.google/public_profiles/98f9b65c-952c-4490-a1cf-a0818a7ac9f1","count":1},
 {"name":"Riya Jain","profile":"https://www.cloudskillsboost.google/public_profiles/a2c35dbc-bf1a-484a-adb7-6fdc403246be","count":1},
 {"name":"Rohit Rajesh Yadav","profile":"https://www.cloudskillsboost.google/public_profiles/2ad3b688-7f6b-491c-92c2-c5fa84da4121","count":1},
+{"name":"Shardul Pund","profile":"https://www.cloudskillsboost.google/public_profiles/747c3294-c60f-4996-a98b-44421326cd9d","count":1},
 {"name":"Sharvari Soparkar","profile":"https://www.cloudskillsboost.google/public_profiles/3773b4ca-a7c4-4066-b631-b2be0d482499","count":1},
 {"name":"Shreyash Santosh Sahu","profile":"https://www.cloudskillsboost.google/public_profiles/24a8e6b5-dbdd-4d51-b5e3-debe73f91227","count":1},
 {"name":"Vikram Mantri","profile":"https://www.cloudskillsboost.google/public_profiles/0212a8f0-9486-45ff-b6ea-d0fa0817b36c","count":1},
@@ -58,7 +60,6 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Nirmiti Umekar","profile":"https://www.cloudskillsboost.google/public_profiles/6b0567f0-67cc-4f17-91b3-51a00027fb27","count":0},
 {"name":"Nisha Jain","profile":"https://www.cloudskillsboost.google/public_profiles/b484db93-0aa1-457b-a888-b6c323c7ff9f","count":0},
 {"name":"PRASHAN DEEPAK ARYA","profile":"https://www.cloudskillsboost.google/public_profiles/e60df003-f355-4cc3-bf72-f0eec3a3a95b","count":0},
-{"name":"Poorvi Asatkar","profile":"https://www.cloudskillsboost.google/public_profiles/98f9b65c-952c-4490-a1cf-a0818a7ac9f1","count":0},
 {"name":"Prashant Shrivastava","profile":"https://www.cloudskillsboost.google/public_profiles/7483a4f8-a7d9-4834-9cd9-4cb11da2140a","count":0},
 {"name":"Rahi Pramodsingh Chauhan","profile":"https://www.cloudskillsboost.google/public_profiles/65dae026-789e-4d96-a594-08fa7dfe0009","count":0},
 {"name":"Rahul Mahesh Paliwal","profile":"https://www.cloudskillsboost.google/public_profiles/fd966fe0-6092-4b2f-9784-4bdd2fdf7140","count":0},
@@ -77,7 +78,6 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Sania Ahmed","profile":"https://www.cloudskillsboost.google/public_profiles/4891a91d-5ef3-4a96-8f03-57b2cf9a251a","count":0},
 {"name":"Sejal Jagtap","profile":"https://www.cloudskillsboost.google/public_profiles/b41c5f75-03e6-4c0f-afbe-decfc52e7877","count":0},
 {"name":"Sejal Randive","profile":"https://www.cloudskillsboost.google/public_profiles/4c8a45cd-46c4-4875-b1e2-3f237b434922","count":0},
-{"name":"Shardul Pund","profile":"https://www.cloudskillsboost.google/public_profiles/747c3294-c60f-4996-a98b-44421326cd9d","count":0},
 {"name":"Shradha Allewar","profile":"https://www.cloudskillsboost.google/public_profiles/8f7e5fe8-4e8d-43f1-9c0c-915a21010493","count":0},
 {"name":"Siddhi Sahu","profile":"https://www.cloudskillsboost.google/public_profiles/82d5db21-39ba-401a-a1e2-4bd5b563c94c","count":0},
 {"name":"Silvi Gupta","profile":"https://www.cloudskillsboost.google/public_profiles/4c3e69ae-62aa-4d1e-8355-2ee948a2080f","count":0},
@@ -97,4 +97,4 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Yudhan Thakur","profile":"https://www.cloudskillsboost.google/public_profiles/9b14c7b7-1e3a-4c18-ab04-8f4558c5cebf","count":0},
 {"name":"vedant walchale","profile":"https://www.cloudskillsboost.google/public_profiles/26983e46-2c8e-45b6-91d2-026b82ea3cc3","count":0},
 ]
-const updateTime =  "28-11-2022 08:23 AM"
+const updateTime =  "28-11-2022 12:34 PM"
