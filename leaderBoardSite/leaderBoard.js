@@ -97,4 +97,4 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Yudhan Thakur","profile":"https://www.cloudskillsboost.google/public_profiles/9b14c7b7-1e3a-4c18-ab04-8f4558c5cebf","count":0},
 {"name":"vedant walchale","profile":"https://www.cloudskillsboost.google/public_profiles/26983e46-2c8e-45b6-91d2-026b82ea3cc3","count":0},
 ]
-const updateTime =  "07-12-2022 04:20 AM"
+const updateTime =  "07-12-2022 08:21 AM"
