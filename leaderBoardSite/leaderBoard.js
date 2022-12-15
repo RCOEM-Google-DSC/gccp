@@ -9,9 +9,9 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Mrunal Vinod Thakre","profile":"https://www.cloudskillsboost.google/public_profiles/30d9cf36-26fd-4222-a6cf-ceb1eba49645","count":9},
 {"name":"Yash Damdu","profile":"https://www.cloudskillsboost.google/public_profiles/109cb16d-20bc-4b99-8c99-c820177b3976","count":9},
 {"name":"Sharvari Soparkar","profile":"https://www.cloudskillsboost.google/public_profiles/3773b4ca-a7c4-4066-b631-b2be0d482499","count":8},
+{"name":"Yash Lichade","profile":"https://www.cloudskillsboost.google/public_profiles/605d25f4-ce12-46c4-834e-7e85dae30a29","count":8},
 {"name":"Vedant Atul Sule","profile":"https://www.cloudskillsboost.google/public_profiles/a3524d70-83f3-4e64-a508-ccbfcfc1bf6d","count":7},
-{"name":"Yash Lichade","profile":"https://www.cloudskillsboost.google/public_profiles/605d25f4-ce12-46c4-834e-7e85dae30a29","count":7},
-{"name":"Vishweshkumar Vijaykumar Salampuria","profile":"https://www.cloudskillsboost.google/public_profiles/90112103-6468-4220-9f8d-d4488849eacb","count":6},
+{"name":"Vishweshkumar Vijaykumar Salampuria","profile":"https://www.cloudskillsboost.google/public_profiles/90112103-6468-4220-9f8d-d4488849eacb","count":7},
 {"name":"Gaurav Kedia","profile":"https://www.cloudskillsboost.google/public_profiles/ab154191-fc30-45fb-ba69-aeaa7dd8eab5","count":5},
 {"name":"Minal Ghate","profile":"https://www.cloudskillsboost.google/public_profiles/3c5070af-12ed-40d5-9853-528fb0426097","count":5},
 {"name":"Sagar Dave","profile":"https://www.cloudskillsboost.google/public_profiles/6735f627-ea30-4ff2-bb6b-e947c87ab0be","count":5},
@@ -26,13 +26,13 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Jasmitsingh Saggu","profile":"https://www.cloudskillsboost.google/public_profiles/c7f87d3d-0dcd-4d8e-aa92-de29b90f4b70","count":3},
 {"name":"Riya Jain","profile":"https://www.cloudskillsboost.google/public_profiles/a2c35dbc-bf1a-484a-adb7-6fdc403246be","count":3},
 {"name":"Sahil Sandeep Hedau","profile":"https://www.cloudskillsboost.google/public_profiles/51513b81-9d48-4635-9d77-dff8c9a30492","count":3},
+{"name":"Samiksha Gupta","profile":"https://www.cloudskillsboost.google/public_profiles/51018c19-e97c-4fec-9b71-47e69000d685","count":3},
 {"name":"Arnav Nilesh Kadu","profile":"https://www.cloudskillsboost.google/public_profiles/7b279598-7478-42d0-ae1c-879d8cc654a7","count":2},
 {"name":"Mansi Prashant sawarkar","profile":"https://www.cloudskillsboost.google/public_profiles/d2589314-310a-4462-83cf-de4bfcceecdf","count":2},
 {"name":"Nisha Jain","profile":"https://www.cloudskillsboost.google/public_profiles/b484db93-0aa1-457b-a888-b6c323c7ff9f","count":2},
 {"name":"PRASHAN DEEPAK ARYA","profile":"https://www.cloudskillsboost.google/public_profiles/e60df003-f355-4cc3-bf72-f0eec3a3a95b","count":2},
 {"name":"Poorvi Asatkar","profile":"https://www.cloudskillsboost.google/public_profiles/98f9b65c-952c-4490-a1cf-a0818a7ac9f1","count":2},
 {"name":"Rohit Rajesh Yadav","profile":"https://www.cloudskillsboost.google/public_profiles/2ad3b688-7f6b-491c-92c2-c5fa84da4121","count":2},
-{"name":"Samiksha Gupta","profile":"https://www.cloudskillsboost.google/public_profiles/51018c19-e97c-4fec-9b71-47e69000d685","count":2},
 {"name":"Shardul Pund","profile":"https://www.cloudskillsboost.google/public_profiles/747c3294-c60f-4996-a98b-44421326cd9d","count":2},
 {"name":"Vedanti Dalvi","profile":"https://www.cloudskillsboost.google/public_profiles/80634ef5-02fe-4dda-b47b-fc09ed7fbf69","count":2},
 {"name":"Adwait Puntambekar","profile":"https://www.cloudskillsboost.google/public_profiles/890da20e-e2cd-422d-affb-c16a546f6ea3","count":1},
@@ -97,4 +97,4 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Vishakha Sharma","profile":"https://www.cloudskillsboost.google/public_profiles/357c6e3f-7378-4e6b-affa-806ad3a105c6","count":0},
 {"name":"Yudhan Thakur","profile":"https://www.cloudskillsboost.google/public_profiles/9b14c7b7-1e3a-4c18-ab04-8f4558c5cebf","count":0},
 ]
-const updateTime =  "15-12-2022 16:24 PM"
+const updateTime =  "15-12-2022 20:17 PM"
