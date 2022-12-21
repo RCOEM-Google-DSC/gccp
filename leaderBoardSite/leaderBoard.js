@@ -16,6 +16,7 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Mehvish Sheikh","profile":"https://www.cloudskillsboost.google/public_profiles/c591d166-da79-44fe-a521-ad08e308cbbc","count":8},
 {"name":"Minal Ghate","profile":"https://www.cloudskillsboost.google/public_profiles/3c5070af-12ed-40d5-9853-528fb0426097","count":8},
 {"name":"Poorvi Asatkar","profile":"https://www.cloudskillsboost.google/public_profiles/98f9b65c-952c-4490-a1cf-a0818a7ac9f1","count":8},
+{"name":"Rohit Rajesh Yadav","profile":"https://www.cloudskillsboost.google/public_profiles/2ad3b688-7f6b-491c-92c2-c5fa84da4121","count":8},
 {"name":"Sagar Dave","profile":"https://www.cloudskillsboost.google/public_profiles/6735f627-ea30-4ff2-bb6b-e947c87ab0be","count":8},
 {"name":"Samiksha Gupta","profile":"https://www.cloudskillsboost.google/public_profiles/51018c19-e97c-4fec-9b71-47e69000d685","count":8},
 {"name":"Sejal Jagtap","profile":"https://www.cloudskillsboost.google/public_profiles/b41c5f75-03e6-4c0f-afbe-decfc52e7877","count":8},
@@ -26,13 +27,12 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Gaurav Kedia","profile":"https://www.cloudskillsboost.google/public_profiles/ab154191-fc30-45fb-ba69-aeaa7dd8eab5","count":7},
 {"name":"Rishab Jain","profile":"https://www.cloudskillsboost.google/public_profiles/a94a95c9-bc8e-4d80-83d9-ac8530c91717","count":7},
 {"name":"Rohit Patil","profile":"https://www.cloudskillsboost.google/public_profiles/08bbfc99-6bff-46da-b873-7ed88e72d3d3","count":7},
-{"name":"Rohit Rajesh Yadav","profile":"https://www.cloudskillsboost.google/public_profiles/2ad3b688-7f6b-491c-92c2-c5fa84da4121","count":7},
 {"name":"Vishweshkumar Vijaykumar Salampuria","profile":"https://www.cloudskillsboost.google/public_profiles/90112103-6468-4220-9f8d-d4488849eacb","count":7},
 {"name":"Amit Vishwakarma","profile":"https://www.cloudskillsboost.google/public_profiles/23b8dd37-48e6-44a3-8ae3-a9b56d16e3ac","count":5},
 {"name":"Astha Manish Sahu","profile":"https://www.cloudskillsboost.google/public_profiles/1b88b75b-9050-4053-b464-49cf10addf57","count":5},
+{"name":"PRASHAN DEEPAK ARYA","profile":"https://www.cloudskillsboost.google/public_profiles/e60df003-f355-4cc3-bf72-f0eec3a3a95b","count":5},
 {"name":"Rahi Pramodsingh Chauhan","profile":"https://www.cloudskillsboost.google/public_profiles/65dae026-789e-4d96-a594-08fa7dfe0009","count":5},
 {"name":"Mallika Hariharan","profile":"https://www.cloudskillsboost.google/public_profiles/26ca30b1-3662-4ef9-ad61-da661ef7fe48","count":4},
-{"name":"PRASHAN DEEPAK ARYA","profile":"https://www.cloudskillsboost.google/public_profiles/e60df003-f355-4cc3-bf72-f0eec3a3a95b","count":4},
 {"name":"Esha Kumbhare","profile":"https://www.cloudskillsboost.google/public_profiles/25d6bb94-013f-41e0-a0af-2269821a6a93","count":3},
 {"name":"Jasmitsingh Saggu","profile":"https://www.cloudskillsboost.google/public_profiles/c7f87d3d-0dcd-4d8e-aa92-de29b90f4b70","count":3},
 {"name":"Mansi Prashant sawarkar","profile":"https://www.cloudskillsboost.google/public_profiles/d2589314-310a-4462-83cf-de4bfcceecdf","count":3},
@@ -97,4 +97,4 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Vinita Kumari","profile":"https://www.cloudskillsboost.google/public_profiles/49d9bc68-08eb-4598-8194-e2b96a5e10d3","count":0},
 {"name":"Vishakha Sharma","profile":"https://www.cloudskillsboost.google/public_profiles/357c6e3f-7378-4e6b-affa-806ad3a105c6","count":0},
 ]
-const updateTime =  "21-12-2022 01:15 AM"
+const updateTime =  "21-12-2022 04:20 AM"
