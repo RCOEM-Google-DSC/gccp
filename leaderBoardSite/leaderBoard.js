@@ -50,11 +50,11 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Mansi Prashant sawarkar","profile":"https://www.cloudskillsboost.google/public_profiles/d2589314-310a-4462-83cf-de4bfcceecdf","count":3},
 {"name":"Srushti appa","profile":"https://www.cloudskillsboost.google/public_profiles/a9353b4d-4fe6-48a3-b82c-e0b20ad3690e","count":3},
 {"name":"Kaustubh Dinesh Nichit","profile":"https://www.cloudskillsboost.google/public_profiles/024b73d8-78bc-49e8-bc53-c4e763405f86","count":2},
+{"name":"Mahesh Bora","profile":"https://www.cloudskillsboost.google/public_profiles/38d38ba0-d3ba-45ca-88a8-668ab0663640","count":2},
 {"name":"Nisha Jain","profile":"https://www.cloudskillsboost.google/public_profiles/b484db93-0aa1-457b-a888-b6c323c7ff9f","count":2},
 {"name":"Akshita Sharma","profile":"https://www.cloudskillsboost.google/public_profiles/cf981309-0a22-4fd3-89e6-5e4253b43869","count":1},
 {"name":"Daksh Agrawal","profile":"https://www.cloudskillsboost.google/public_profiles/bf16f9d2-e330-4d27-a416-71ad942a3e1b","count":1},
 {"name":"Jiya Rathi","profile":"https://www.cloudskillsboost.google/public_profiles/f347dd5e-f491-42a4-b0b2-4b6d431665f8","count":1},
-{"name":"Mahesh Bora","profile":"https://www.cloudskillsboost.google/public_profiles/38d38ba0-d3ba-45ca-88a8-668ab0663640","count":1},
 {"name":"Raksha Ashtankar","profile":"https://www.cloudskillsboost.google/public_profiles/0faec8a8-b183-444e-bb76-c8991f49c1e9","count":1},
 {"name":"Sahil Nimburkar","profile":"https://www.cloudskillsboost.google/public_profiles/b64e5d00-bff0-497d-a507-d300b3d136fb","count":1},
 {"name":"Vedant Murai","profile":"https://www.cloudskillsboost.google/public_profiles/04a985d3-829c-4a0a-9ddf-aff54e477abd","count":1},
@@ -97,4 +97,4 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Vinita Kumari","profile":"https://www.cloudskillsboost.google/public_profiles/49d9bc68-08eb-4598-8194-e2b96a5e10d3","count":0},
 {"name":"Vishakha Sharma","profile":"https://www.cloudskillsboost.google/public_profiles/357c6e3f-7378-4e6b-affa-806ad3a105c6","count":0},
 ]
-const updateTime =  "06-01-2023 04:20 AM"
+const updateTime =  "06-01-2023 08:21 AM"
