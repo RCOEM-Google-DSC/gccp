@@ -97,4 +97,4 @@ const leaderBoardData = [{"name":"Vishweshkumar Vijaykumar Salampuria","profile"
 {"name":"Vinita Kumari","profile":"https://www.cloudskillsboost.google/public_profiles/49d9bc68-08eb-4598-8194-e2b96a5e10d3","count":0},
 {"name":"Vishakha Sharma","profile":"https://www.cloudskillsboost.google/public_profiles/357c6e3f-7378-4e6b-affa-806ad3a105c6","count":0},
 ]
-const updateTime =  "01-08-2023 12:30 PM"
+const updateTime =  "01-08-2023 16:18 PM"
