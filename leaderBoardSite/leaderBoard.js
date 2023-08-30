@@ -38,7 +38,6 @@ const leaderBoardData = [{"name":"Vishweshkumar Vijaykumar Salampuria","profile"
 {"name":"Astha Manish Sahu","profile":"https://www.cloudskillsboost.google/public_profiles/1b88b75b-9050-4053-b464-49cf10addf57","count":7},
 {"name":"Janhavi Dinesh Agrawal","profile":"https://www.cloudskillsboost.google/public_profiles/bf99fdb9-30f4-4e51-91bc-3643814fd33c","count":7},
 {"name":"Jasmitsingh Saggu","profile":"https://www.cloudskillsboost.google/public_profiles/c7f87d3d-0dcd-4d8e-aa92-de29b90f4b70","count":7},
-{"name":"Jaya Singh","profile":"https://www.cloudskillsboost.google/public_profiles/6b44c967-96b1-4100-ae81-9ef65c3d78dd","count":7},
 {"name":"Madhavi Dilipkumar Mate","profile":"https://www.cloudskillsboost.google/public_profiles/e7140b6f-30b2-4eea-a99a-ea5cdda9c22d","count":7},
 {"name":"Mahesh Bora","profile":"https://www.cloudskillsboost.google/public_profiles/38d38ba0-d3ba-45ca-88a8-668ab0663640","count":7},
 {"name":"Rashmi Kanharkar","profile":"https://www.cloudskillsboost.google/public_profiles/a126b4fd-57c2-4da1-a688-b002be1738e4","count":7},
@@ -72,6 +71,7 @@ const leaderBoardData = [{"name":"Vishweshkumar Vijaykumar Salampuria","profile"
 {"name":"Anamika Kumbhare","profile":"https://www.cloudskillsboost.google/public_profiles/a08e375a-f727-4ec5-a94d-b2edef65a892","count":0},
 {"name":"Anand Upadhyaya","profile":"https://www.cloudskillsboost.google/public_profiles/faf83a8e-c57d-4d7f-92c2-521919eba7a3","count":0},
 {"name":"Eeshan Wadodkar","profile":"https://www.cloudskillsboost.google/public_profiles/03ec8d8a-c5e3-4413-9e4f-c8add1f9e039","count":0},
+{"name":"Jaya Singh","profile":"https://www.cloudskillsboost.google/public_profiles/6b44c967-96b1-4100-ae81-9ef65c3d78dd","count":0},
 {"name":"Keshav Harish Khandelwal","profile":"https://www.cloudskillsboost.google/public_profiles/2a52868d-e21e-4aa8-9e06-ffc5e39d23d5","count":0},
 {"name":"Ketaki Tank","profile":"https://www.cloudskillsboost.google/public_profiles/23d2b5d6-f17a-4810-a946-778e82a61b6f","count":0},
 {"name":"Krushna Dande","profile":"https://www.cloudskillsboost.google/public_profiles/15b188a2-60c7-4b41-82a4-074e48100523","count":0},
@@ -97,4 +97,4 @@ const leaderBoardData = [{"name":"Vishweshkumar Vijaykumar Salampuria","profile"
 {"name":"Vinita Kumari","profile":"https://www.cloudskillsboost.google/public_profiles/49d9bc68-08eb-4598-8194-e2b96a5e10d3","count":0},
 {"name":"Vishakha Sharma","profile":"https://www.cloudskillsboost.google/public_profiles/357c6e3f-7378-4e6b-affa-806ad3a105c6","count":0},
 ]
-const updateTime =  "30-08-2023 12:28 PM"
+const updateTime =  "30-08-2023 16:22 PM"
