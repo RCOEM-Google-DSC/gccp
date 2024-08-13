@@ -2,10 +2,10 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Vishweshkumar Vijaykumar Salampuria","profile":"https://www.cloudskillsboost.google/public_profiles/90112103-6468-4220-9f8d-d4488849eacb","count":45},
 {"name":"Yagyesh Bobde","profile":"https://www.cloudskillsboost.google/public_profiles/f95f5ebe-f7c9-4d48-99c6-953eacfe1383","count":19},
 {"name":"Anushka Patil","profile":"https://www.cloudskillsboost.google/public_profiles/f7ad681a-ac6a-4a37-be6f-87b9deb5ddee","count":17},
+{"name":"Krushna Dande","profile":"https://www.cloudskillsboost.google/public_profiles/15b188a2-60c7-4b41-82a4-074e48100523","count":13},
 {"name":"Ayush Piyush Chile","profile":"https://www.cloudskillsboost.google/public_profiles/f19321bf-fa07-43bd-a940-eca62b22a67d","count":12},
 {"name":"Harsha Hargunani","profile":"https://www.cloudskillsboost.google/public_profiles/ce2cbecb-f8a6-47bf-a2c2-70797a59eead","count":12},
 {"name":"Karan Agrawal","profile":"https://www.cloudskillsboost.google/public_profiles/1561c8c2-80a2-4186-99cb-1db37baa8c5b","count":12},
-{"name":"Krushna Dande","profile":"https://www.cloudskillsboost.google/public_profiles/15b188a2-60c7-4b41-82a4-074e48100523","count":12},
 {"name":"Maitri Markandeywar","profile":"https://www.cloudskillsboost.google/public_profiles/b1884f43-0948-46b0-bab1-81f065da612b","count":12},
 {"name":"SANCHIT MISRA","profile":"https://www.cloudskillsboost.google/public_profiles/e94b902d-7ee8-4919-8923-5651e160e6bb","count":12},
 {"name":"Tanisha Avinash Bharvesh","profile":"https://www.cloudskillsboost.google/public_profiles/ddb645b2-aa32-44a4-93ee-d2148a10e837","count":12},
@@ -97,4 +97,4 @@ const leaderBoardData = [{"name":"Ishant Kohad","profile":"https://www.cloudskil
 {"name":"Vinita Kumari","profile":"https://www.cloudskillsboost.google/public_profiles/49d9bc68-08eb-4598-8194-e2b96a5e10d3","count":0},
 {"name":"Vishakha Sharma","profile":"https://www.cloudskillsboost.google/public_profiles/357c6e3f-7378-4e6b-affa-806ad3a105c6","count":0},
 ]
-const updateTime =  "13-08-2024 16:21 PM"
+const updateTime =  "13-08-2024 20:18 PM"
